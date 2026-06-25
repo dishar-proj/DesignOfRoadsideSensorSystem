@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e29926; /* Use your desired color code or name */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title-text {
+  text-align: center; /* Centers the text horizontally */
+  color: white;      /* Makes the text color white */
+  margin: 0;
+}
+
+.main-dashboard-image {
+  width: 30%;
+  height: auto;
+}
+
+.video-image {
+  width: 75%;
+  height: auto;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;
+}
+
+.image-wrapper2 {
+  display: flex;
+  flex-direction: column; /* Centers horizontally */
+  align-items: center;
+}
+
+/* The background of the whole app */
+.dashboard-wrapper {
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Container for the cards */
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allows cards to drop to next line on small screens */
+  gap: 30px;
+  margin-top: 50px;
+}
+
+/* The individual white card */
+.stat-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 45px; /* Those extra-rounded corners from your design */
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.card-value {
+  font-size: 4rem;
+  margin: 0;
+  color: #333;
+}
+
+.card-action-btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 15px 0;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 10px;
+}
+
+/* White rounded box container */
+.white-box {
+  background-color: white; /* light gray */
+  border-radius: 60px;
+  padding: 40px;
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Title inside the box */
+.white-box-title {
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: #444;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+/* Content area inside the box */
+.white-box-content {
+  min-height: 300px;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 16px;
+  color: #2563eb;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.link-button:hover {
+  color: #1e40af;
+}
+
+.preview-image {
+  width: 75%;
+  height: auto;
+}
